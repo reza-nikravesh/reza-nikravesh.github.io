@@ -1,0 +1,29 @@
+// palettes
+$light-palette: (
+  "background-default": #eeeeee,
+  "background-paper": #dfdfdf,
+  "primary": #42a5f5,
+  "primary-contrastText": #effffb,
+  "primary-dark": #1787e4,
+  "primary-light": #65a7dd,
+  "secondary": #50d890,
+  "secondary-contrastText": #effffb,
+  "secondary-dark": #27a05f,
+  "secondary-light": #6ee0a3,
+  "text-primary": #272727,
+  "text-secondary": #9ea8b1,
+);
+$dark-palette: (
+  "background-default": #082032,
+  "background-paper": #2c394b,
+  "primary": #42a5f5,
+  "primary-contrastText": #effffb,
+  "primary-dark": #1787e4,
+  "primary-light": #65a7dd,
+  "secondary": #50d890,
+  "secondary-contrastText": #effffb,
+  "secondary-dark": #27a05f,
+  "secondary-light": #6ee0a3,
+  "text-primary": #f1f2f4,
+  "text-secondary": #aeb6bd,
+);

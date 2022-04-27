@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  min-width: 270px;
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  font-size: .9rem;
+  background-color: var(--background-paper);
+  div {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-primary);
+  }
+  meter {
+    width: 100%;
+    &::-webkit-meter-optimum-value {
+      background: var(--primary-dark);
+    }
+    &::-moz-meter-bar {
+      background: var(--primary-dark);
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.container {
+  background-color: var(--background-default);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  color: var(--primary-dark);
+  h2 {
+    font-weight: 300;
+    text-shadow: 0 10px 35px  var(--primary-dark);
+  }
+}

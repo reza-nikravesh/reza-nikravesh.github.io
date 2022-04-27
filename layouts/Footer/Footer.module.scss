@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  span {
+    color: var(--text-secondary);
+  }
+}

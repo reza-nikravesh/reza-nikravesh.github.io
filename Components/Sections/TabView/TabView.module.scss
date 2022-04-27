@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  > * + * {
+    margin-top: 2rem;
+  }
+  .switch {
+    background-color: var(--background-paper);
+    width: 20rem;
+    display: flex;
+    padding: 0.5rem;
+    gap: 1rem;
+    border-radius: 12px;
+    span {
+      transition: all 0.3s ease;
+      cursor: pointer;
+      width: 50%;
+      padding: 0.8rem;
+      text-align: center;
+      border-radius: 12px;
+    }
+    .active {
+      background-color: var(--background-default);
+    }
+  }
+  .content {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  h3{
+    font-weight: 500;
+    font-style: italic;
+  }
+}
