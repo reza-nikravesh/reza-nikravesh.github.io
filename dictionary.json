@@ -1,0 +1,20 @@
+{
+  "en": {
+    "profile": {
+      "name": "Reza Nikravesh",
+      "job": "Front-End Developer",
+      "downloadButton": "Download CV"
+    },
+    "tabView": {
+      "switch": {
+        "skill": "Skills",
+        "projects": "Projects"
+      },
+      "notFound": "Comming Soon..."
+    },
+    "footer": {
+      "copyRight": "© Reza Nikravesh - All rights reserved"
+    },
+    "NotFound": "Page Not Found | 404"
+  }
+}
