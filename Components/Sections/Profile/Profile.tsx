@@ -1,5 +1,5 @@
 import Image from "next/image";
-import pic from "../../../public/pic.png";
+import pic from "../../../public/pic.jpg";
 import classes from "./Profile.module.scss";
 import { BsGithub } from "react-icons/bs";
 import { IoLogoLinkedin } from "react-icons/io";
